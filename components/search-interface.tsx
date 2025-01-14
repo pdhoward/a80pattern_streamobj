@@ -30,7 +30,7 @@ export function SearchInterface() {
   const isLoading = isLoadingArray || isLoadingObject;
 
   return (
-    <div className="min-h-screen bg-neutral-900 text-foreground pt-12">
+    <div className="min-h-screen bg-neutral-900 text-foreground mt-2">
       <div className="px-8">
         <div className="w-full mx-auto space-y-8">
           <div className="space-y-4">
