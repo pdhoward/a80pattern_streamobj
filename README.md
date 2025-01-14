@@ -1,6 +1,7 @@
 # Altitude80 - Standards Demo
 
-* AI-SDK Stream Object with Output mode
+* AI-SDK Stream Object with Output mode:
+
 [`streamObject`](https://sdk.vercel.ai/docs/reference/ai-sdk-core/stream-object) 
 
 [output mode](https://sdk.vercel.ai/docs/ai-sdk-core/generating-structured-data#output-strategy-array) 
@@ -25,6 +26,7 @@ pnpm dev
 
 
   ////////////////////////prototype only //////////////////////////
+
   const firstValue = Object.values(instructionsMap)[0]
 
   const detailedInstructions = {
@@ -33,6 +35,7 @@ pnpm dev
   };
 
   const handleSyntheticDataGeneration = async () => {
+
     ///////////////////////////////////////////////////
     ////    real-time generation using 4o         ////
     // redesign to gen entities with ref integrity //
@@ -57,5 +60,7 @@ pnpm dev
   * Other actions for MVP
 
   > Integrate the suite of prompts for Agent. (static or dynamic assignment)
+
   > API for collaboration? Post to Slack, email, message services etc
+  
   > Design for version controls
